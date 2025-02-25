@@ -29,7 +29,7 @@ alias dad="python manage.py"
 
 setopt EXTENDED_GLOB
 source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+source <(fzf --zsh)
 
 export PATH="$PATH:/Users/gabrielescamilla/bin/flutter/bin"
 
