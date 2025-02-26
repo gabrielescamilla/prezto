@@ -26,6 +26,7 @@ alias df="pydf 2>/dev/null || df -h"
 alias co="git checkout"
 alias vim="nvim"
 alias dad="python manage.py"
+alias gum="git submodule update --recursive --remote"
 
 setopt EXTENDED_GLOB
 source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
